@@ -65,7 +65,7 @@ const Hello = () => {
           // bg="linear-gradient(to right, #6d3607, #4d2605)"
           // h="700px"
           borderRadius="212.5rem"
-          width={{base:'20.125', md:'18.125rem'}}
+          width={{base:'22.125', md:'24.125rem'}}
           // w=""
           // w={"100%"}
           // fontSize="300px"
@@ -74,6 +74,7 @@ const Hello = () => {
         >
           <Image
             boxSize="auto"
+            // width={'500px'}
             borderBottomLeftRadius="2.5rem"
             // pos="relative"
             // left="245px"

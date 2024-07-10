@@ -20,9 +20,6 @@ const ListItem = styled.li`
 const StyledLink = styled.a`
   color: #ffffff;
   text-decoration: none;
-
-  &:hover {
-    color: ${Colors.p.color};
   }
 `;
 function Navlist(props) {
@@ -50,7 +47,7 @@ function Navlist(props) {
   return () => {
     document.removeEventListener("mousedown", handleCLickOutside);
   };
-  },[setIsToggled])
+  },[isToggled])
   return (
     <>
       <Flex>
